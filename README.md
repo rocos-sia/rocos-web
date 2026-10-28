@@ -29,7 +29,7 @@ npm run test:browser
 - 软件架构：Viz → App → MuJoCo **或** ECM，后两者是并行接入路径。
 - 应用场景：模型观察、本地仿真联调、硬件集成，分别说明条件。
 - 在线体验：浏览器本地 Three.js 预览，支持触控/鼠标和按钮；静态图用于加载失败或 WebGL 不可用时回退。
-- 文档与下载：官方组件说明、配置文档、rocos-releases 及渠道清单。
+- 文档与下载：官方组件说明、配置文档、[App API 文档（Apifox）](https://app.apifox.com/project/8387612)、rocos-releases 及渠道清单。Apifox 当前链接为项目入口，需要登录，访问权限由该项目管理；有公开发布文档地址后可替换官网入口。
 - 模仿学习、强化学习仅为不可用的“筹备中”导航，不生成子页。
 
 使用 hash 路由（例如 `/#/experience`），刷新不依赖服务器重写。所有本地资源使用 Vite `BASE_URL`，构建基路径固定为 `/rocos-web/`。修改仓库名时同步调整 `vite.config.ts`。
