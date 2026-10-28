@@ -1,0 +1,10 @@
+node_modules/
+dist/
+work/
+test-results/
+playwright-report/
+.taste-skill/inspect/
+
+.codegraph/
+.taste-skill/before/
+.taste-skill/after/
